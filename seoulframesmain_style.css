@@ -1,0 +1,125 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    cursor: default;
+}
+
+.navigation {
+    color: white;
+    background-color: #002f6c;
+    padding: 15px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.navigation h1 {
+    font-size: 28px;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h3 {
+    margin: 20px;
+    line-height: 30px;
+}
+
+.description h2 {
+    margin: 20px;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #333333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.box {
+    flex-basis: 15%;
+    flex-grow: 1;
+    margin: 3px;
+    text-align: center;
+}
+
+.link {
+    padding: 10px;
+    text-align: center;
+}
+
+.details {
+    border-color: #4a90e2;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.info {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.info p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 1036px) {
+    .details {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.loc {
+    margin: 20px;
+}
+
+.about {
+    text-align: center;
+    margin: 20px;
+}
+
+.about h2 {
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #dceeff;
+    color: #002f6c;
+    padding: 20px;
+}
+
+.contact h2 {
+    padding: 15px;
+}
+
+.contact p {
+    padding: 10px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.details:hover {
+    background-color: black;
+    color: ghostwhite;
+
+    a {
+        color: lightskyblue;
+    }
+}
